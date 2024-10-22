@@ -425,9 +425,53 @@ margin-left: 60px;
 .footer-right p{
 margin-top: 5px;
 }
+
+.our-equipment-uptext{
+text-align: center;
+margin-bottom: 30px;
+}
+.our-equipment-cards{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.our-equipment-card{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.407) 0px 2px 8px 0px;
+    
+
+
+}
+.our-equipment-card li{
+margin-bottom: 10px;
+}
+.our-equipment-card ul li:hover{
+  color: rgb(230, 83, 60);
+
+
+}
+.our-equipment-card img{
+ height: 60px;
+ width: 60px;
+ margin-right: 20px;
+
+
+}
+
+.our-equipment{
+    margin: 40px 20px;
+    
+}
+
 /* -----------------------------responsive for phone----------------- */
-
-
 @media screen and (max-width:576px) {
 .navbar{
     
@@ -607,7 +651,7 @@ margin-left: -10px;
     
     .calculate-btn{
         margin-top: 20px;
-       margin-left: 150px;
+       margin-left: 100px;
       }
       
 .meet-team{
@@ -660,8 +704,24 @@ margin-right: 10px;
 margin-left: 10px;
 margin-bottom: 20px;
 }
+.our-equipment-cards{
+    
+    grid-template-columns: repeat(1, 1fr);
+}
+/* .our-equipment-card{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
 
-
+} */
+.our-equipment-cards{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
 }
 /* ----------------------------------------------large device--------------------------------------- */
 @media screen and (min-width:577px) {
